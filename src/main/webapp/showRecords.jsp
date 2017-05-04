@@ -11,11 +11,11 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>John's Online Pizza Store</title>
+        <title>Alyssa's Online Pizza Store</title>
         <link rel="stylesheet" href="mystyle.css">
     </head>
     <body>
-        <h1><a href="home.html">John's Online Pizza Store</a></h1>
+        <h1><a href="home.html">Alyssa's Online Pizza Store</a></h1>
         <h2>Order Report</h2>
         <%
             List<PizzaOrder> orderList = (List<PizzaOrder>) request.getAttribute("orderList");
